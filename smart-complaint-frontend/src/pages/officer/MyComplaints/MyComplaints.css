@@ -1,0 +1,111 @@
+.officer-complaints h1 {
+    color: #1e293b;
+    margin-bottom: 25px;
+}
+
+.officer-complaints-table {
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.officer-complaints-table th {
+    background: #1e293b;
+    color: white;
+    padding: 15px;
+    text-align: left;
+}
+
+.officer-complaints-table td {
+    padding: 15px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.officer-complaints-table tr:hover {
+    background: #f8fafc;
+}
+
+.officer-status {
+    background: #dbeafe;
+    color: #1d4ed8;
+    padding: 6px 10px;
+    border-radius: 15px;
+    font-size: 13px;
+}
+
+.view-complaint-btn {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.view-complaint-btn:hover {
+    background: #1d4ed8;
+}
+.search-container {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.search-container input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.search-btn,
+.reset-btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+}
+
+.search-btn {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.reset-btn {
+    background-color: #6c757d;
+    color: white;
+}
+.filter-container {
+
+    margin-bottom: 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+}
+
+
+.filter-container select {
+
+    padding: 10px;
+
+    border-radius: 8px;
+
+    border: 1px solid #ccc;
+
+    cursor: pointer;
+
+}
+
+
+.filter-container label {
+
+    font-weight: 600;
+
+}

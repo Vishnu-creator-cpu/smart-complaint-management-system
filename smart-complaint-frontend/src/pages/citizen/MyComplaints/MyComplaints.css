@@ -1,0 +1,133 @@
+.mycomplaints-container {
+    min-height: 100vh;
+    padding: 35px;
+    background: linear-gradient(
+        135deg,
+        #0f172a,
+        #111827
+    );
+    color: #f8fafc;
+}
+
+.mycomplaints-container h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #60a5fa;
+}
+
+/* TABLE */
+
+.mycomplaints-container table {
+    width: 100%;
+    border-collapse: collapse;
+    background: linear-gradient(160deg, #eef2ff 0%, #e0e7ff 40%, #dbeafe 100%);
+    border-radius: 14px;
+    overflow: hidden;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* TABLE HEADER */
+
+.mycomplaints-container thead {
+    background: linear-gradient(
+        90deg,
+        #2563eb,
+        #4f46e5
+    );
+}
+
+.mycomplaints-container th {
+    padding: 18px;
+    color: #0e0d0d;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* TABLE DATA */
+
+.mycomplaints-container td {
+    padding: 17px;
+    text-align: center;
+    color: #0f0f0f;
+    border-bottom: 1px solid #334155;
+}
+
+/* ROW HOVER */
+
+.mycomplaints-container tbody tr {
+    transition: 0.3s ease;
+}
+
+/* STATUS */
+
+.status-badge {
+    display: inline-block;
+    min-width: 90px;
+    padding: 7px 15px;
+    border-radius: 20px;
+
+    font-size: 13px;
+    font-weight: 600;
+
+    color: rgb(19, 17, 17);
+}
+
+/* PENDING */
+
+.status-badge.pending,
+.status-badge.submitted {
+    background: #f59e0b;
+}
+
+/* RESOLVED */
+
+.status-badge.resolved {
+    background: #22c55e;
+}
+
+/* REJECTED */
+
+.status-badge.rejected {
+    background: #ef4444;
+}
+
+/* IN PROGRESS */
+
+.status-badge.in-progress {
+    background: #3b82f6;
+}
+
+/* EMPTY ROW */
+
+.mycomplaints-container td[colspan="4"] {
+    padding: 50px;
+    color: #94a3b8;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* LOADING */
+
+.mycomplaints-container p {
+    color: #cbd5e1;
+    font-size: 16px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .mycomplaints-container {
+        padding: 20px;
+        overflow-x: auto;
+    }
+
+    .mycomplaints-container table {
+        min-width: 650px;
+    }
+
+}

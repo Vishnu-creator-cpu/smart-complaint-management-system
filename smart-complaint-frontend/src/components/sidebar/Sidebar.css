@@ -1,0 +1,208 @@
+.sidebar{
+
+    width:280px;
+
+    height:100vh;
+
+    position:fixed;
+
+    left:0;
+
+    top:0;
+
+    background:#0F172A;
+
+    color:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:space-between;
+
+    padding:30px 20px;
+
+    z-index: 100;
+
+}
+
+.sidebar-logo{
+
+    text-align:center;
+
+}
+
+.sidebar-logo img{
+
+    width:70px;
+
+    margin-bottom:15px;
+
+}
+
+.sidebar-logo h2{
+
+    font-size:22px;
+
+    font-weight:700;
+
+}
+
+.sidebar ul{
+
+    list-style:none;
+
+    padding:0;
+
+    margin-top:40px;
+
+}
+
+.sidebar ul li{
+
+    margin-bottom:12px;
+
+}
+
+.sidebar ul li a{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    color:#CBD5E1;
+
+    text-decoration:none;
+
+    padding:15px;
+
+    border-radius:12px;
+
+    transition:.3s;
+
+}
+
+.sidebar ul li a:hover{
+
+    background:#2563EB;
+
+    color:white;
+
+}
+
+.sidebar ul li.active a{
+
+    background:#2563EB;
+
+    color:white;
+
+}
+
+.sidebar-bottom a{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    text-decoration:none;
+
+    color:#F87171;
+
+    padding:15px;
+
+    border-radius:12px;
+
+    transition:.3s;
+
+}
+
+.sidebar-bottom a:hover{
+
+    background:#DC2626;
+
+    color:white;
+
+}
+.sidebar-bottom{
+
+    margin-top:auto;
+
+    padding:20px;
+
+}
+
+.logout-btn{
+
+    width:100%;
+
+    border:none;
+
+    outline:none;
+
+    background:#ef4444;
+
+    color:#fff;
+
+    padding:14px;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+
+    transition:.3s;
+
+}
+
+.logout-btn:hover{
+
+    background:#dc2626;
+
+    transform:translateY(-2px);
+
+    box-shadow:0 8px 20px rgba(220,38,38,.35);
+
+}
+
+.sidebar ul li a{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    text-decoration:none;
+
+    color:inherit;
+
+    width:100%;
+
+}
+
+.sidebar ul li{
+
+    transition:.3s;
+
+}
+
+.sidebar ul li:hover{
+
+    transform:translateX(5px);
+
+}

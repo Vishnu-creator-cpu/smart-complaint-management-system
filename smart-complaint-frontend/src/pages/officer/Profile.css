@@ -1,0 +1,384 @@
+.officer-profile {
+
+    min-height: 100vh;
+    padding: 30px;
+    background: #F1F5F9;
+
+}
+
+
+/* HEADER CARD */
+
+.profile-header {
+
+    background: linear-gradient(135deg,#2563EB,#3B82F6);
+    color: white;
+
+    padding: 40px;
+
+    border-radius: 25px;
+
+    text-align: center;
+
+    box-shadow: 0 15px 30px rgba(37,99,235,.25);
+
+}
+
+
+.profile-avatar {
+
+    width: 110px;
+    height: 110px;
+
+    margin: auto;
+
+    border-radius: 50%;
+
+    background: white;
+    color: #2563EB;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 55px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.profile-header h1 {
+
+    margin: 0;
+    font-size: 34px;
+
+}
+
+
+.profile-header p {
+
+    margin-top: 10px;
+    font-size: 18px;
+    opacity: .95;
+
+}
+
+
+
+/* COMMON CARD DESIGN */
+
+.details-card,
+.statistics-card,
+.performance-card {
+
+    margin-top: 30px;
+
+    background: white;
+
+    border-radius: 25px;
+
+    padding: 30px;
+
+    box-shadow: 0 12px 30px rgba(0,0,0,.08);
+
+}
+
+
+.details-card h2,
+.statistics-card h2,
+.performance-card h2 {
+
+    margin-bottom: 25px;
+    color: #0F172A;
+
+}
+
+
+
+/* DETAILS GRID */
+
+.details-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+
+    gap: 20px;
+
+}
+
+
+.details-grid div {
+
+    background: #F8FAFC;
+
+    padding: 18px;
+
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    transition: .3s ease;
+
+}
+
+
+.details-grid div:hover {
+
+    transform: translateY(-5px);
+
+    background: #EFF6FF;
+
+}
+
+
+.details-grid svg {
+
+    color: #2563EB;
+    font-size: 20px;
+
+}
+
+
+.details-grid span {
+
+    color: #334155;
+    font-weight: 600;
+
+}
+
+
+
+/* STATISTICS */
+
+.stats-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+
+    gap: 20px;
+
+}
+
+
+.stat-box {
+
+    background: linear-gradient(135deg,#2563EB,#3B82F6);
+
+    color: white;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    transition: .3s ease;
+
+}
+
+
+.stat-box:hover {
+
+    transform: translateY(-7px);
+
+    box-shadow: 0 15px 25px rgba(37,99,235,.25);
+
+}
+
+
+.stat-box h1 {
+
+    margin: 0;
+
+    font-size: 42px;
+
+}
+
+
+.stat-box p {
+
+    margin-top: 10px;
+
+    font-size: 16px;
+
+}
+
+
+
+/* PERFORMANCE */
+
+.progress-bar {
+
+    width: 100%;
+
+    height: 28px;
+
+    background: #E2E8F0;
+
+    border-radius: 50px;
+
+    overflow: hidden;
+
+    margin-bottom: 15px;
+
+}
+
+
+.progress-fill {
+
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg,#22C55E,#16A34A);
+
+    color: white;
+    font-weight: 700;
+
+    border-radius: 50px;
+
+    transition: 1s ease;
+
+}
+
+
+.performance-card p {
+
+    color: #64748B;
+    font-size: 15px;
+
+}
+
+
+
+/* BUTTONS */
+
+.action-buttons {
+
+    margin-top: 30px;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+}
+
+
+.action-buttons button {
+
+    flex: 1;
+
+    min-width: 180px;
+
+    border: none;
+
+    padding: 16px;
+
+    border-radius: 15px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    transition: .3s ease;
+
+}
+
+
+/* UPDATE */
+
+.update-btn {
+
+    background: #2563EB;
+    color: white;
+
+}
+
+
+.update-btn:hover {
+
+    background: #1D4ED8;
+
+}
+
+
+/* PASSWORD */
+
+.password-btn {
+
+    background: #F59E0B;
+    color: white;
+
+}
+
+
+.password-btn:hover {
+
+    background: #D97706;
+
+}
+
+
+/* LOGOUT */
+
+.logout-btn {
+
+    background: #EF4444;
+    color: white;
+
+}
+
+
+.logout-btn:hover {
+
+    background: #DC2626;
+
+}
+
+
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    .officer-profile{
+
+        padding:20px;
+
+    }
+
+
+    .profile-header h1{
+
+        font-size:28px;
+
+    }
+
+
+    .profile-avatar{
+
+        width:90px;
+        height:90px;
+
+        font-size:45px;
+
+    }
+
+
+    .action-buttons{
+
+        flex-direction:column;
+
+    }
+
+}

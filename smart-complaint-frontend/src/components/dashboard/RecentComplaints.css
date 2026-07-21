@@ -1,0 +1,75 @@
+.recent-complaints-card{
+
+    margin-top:35px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.recent-complaints-card h2{
+
+    color:#1E293B;
+
+    margin-bottom:25px;
+
+}
+
+.recent-item{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 0;
+
+    border-bottom:1px solid #E2E8F0;
+
+}
+
+.recent-item h4{
+
+    margin:0;
+
+    color:#0F172A;
+
+}
+
+.recent-item p{
+
+    margin-top:5px;
+
+    color:#64748B;
+
+}
+
+.recent-item button{
+
+    border:none;
+
+    background:#2563EB;
+
+    color:white;
+
+    padding:10px 18px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.recent-item button:hover{
+
+    background:#1D4ED8;
+
+}

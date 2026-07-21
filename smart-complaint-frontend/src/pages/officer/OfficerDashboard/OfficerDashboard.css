@@ -1,0 +1,96 @@
+.officer-dashboard h1 {
+    color: #1e293b;
+    margin-bottom: 5px;
+}
+
+.dashboard-welcome {
+    color: #64748b;
+    margin-bottom: 30px;
+}
+
+.officer-dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.officer-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.officer-card h3 {
+    color: #64748b;
+    margin-bottom: 15px;
+}
+
+.officer-card h2 {
+    color: #2563eb;
+    font-size: 35px;
+    margin: 0;
+}
+
+@media (max-width: 900px) {
+
+    .officer-dashboard-cards {
+        grid-template-columns: 1fr;
+    }
+
+}
+.dashboard-container {
+
+    padding: 30px;
+
+}
+
+
+.dashboard-cards {
+
+    display: flex;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+}
+
+
+.dashboard-card {
+
+    flex: 1;
+
+    min-width: 220px;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    background: white;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+    text-align: center;
+
+}
+
+
+.dashboard-card h2 {
+
+    font-size: 40px;
+
+    margin-bottom: 10px;
+
+    color: #0d6efd;
+
+}
+
+
+.dashboard-card p {
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+}

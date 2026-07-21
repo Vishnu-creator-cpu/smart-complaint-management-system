@@ -1,0 +1,327 @@
+.track-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+
+}
+
+
+/* Track Complaint Card */
+
+.track-card {
+
+    width: 800px;
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 15px 35px rgba(0,0,0,.12);
+
+}
+
+.track-card h2 {
+
+    text-align: center;
+    color: #2563EB;
+    margin-bottom: 25px;
+    font-size: 32px;
+
+}
+
+
+/* Search Box */
+
+.search-box {
+
+    display: flex;
+    gap: 15px;
+
+}
+
+.search-box input {
+
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+
+}
+
+.search-box input:focus {
+
+    border-color: #2563EB;
+
+}
+
+.search-box button {
+
+    padding: 15px 30px;
+    background: #2563EB;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .3s;
+
+}
+
+.search-box button:hover {
+
+    background: #1D4ED8;
+
+}
+
+
+/* Complaint Details Card */
+
+.result-card {
+
+    margin-top: 30px;
+    background: #F8FAFC;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.06);
+
+}
+
+.result-card h3 {
+
+    color: #2563EB;
+    margin-bottom: 15px;
+    font-size: 26px;
+
+}
+
+.result-card p {
+
+    margin-bottom: 12px;
+    font-size: 16px;
+
+}
+
+
+/* Complaint Progress */
+
+.status-container {
+
+    width: 800px;
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 15px 35px rgba(0,0,0,.12);
+
+}
+
+.status-container h2 {
+
+    text-align: center;
+    color: #2563EB;
+    margin-bottom: 30px;
+    font-size: 30px;
+
+}
+
+.status-grid {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.status-item {
+
+    text-align: center;
+    flex: 1;
+
+}
+
+.status-item span {
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+    background: #E5E7EB;
+    color: #2563EB;
+    font-size: 28px;
+    font-weight: bold;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.status-item p {
+
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+
+/* Timeline Section */
+
+.progress-container {
+
+    width: 800px;
+
+}
+
+.progress-container h2 {
+
+    text-align: center;
+    color: white;
+    font-size: 34px;
+    margin-bottom: 30px;
+
+}
+
+
+/* Timeline Card */
+
+.progress-card {
+
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+
+    border-left: 8px solid #2563EB;
+    border-radius: 20px;
+
+    box-shadow: 0 15px 35px rgba(0,0,0,.12);
+
+}
+
+.progress-card h3 {
+
+    color: #2563EB;
+    margin-bottom: 20px;
+    font-size: 24px;
+
+}
+
+
+/* Timeline Image */
+
+.progress-card img {
+
+    width: 100%;
+    max-height: 320px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+}
+
+
+/* Timeline Text */
+
+.progress-card p {
+
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 1.6;
+
+}
+
+
+/* Mobile Responsive */
+
+@media(max-width:900px){
+
+    .track-card,
+    .status-container,
+    .progress-container{
+
+        width:95%;
+
+    }
+
+    .status-grid{
+
+        flex-direction: column;
+
+    }
+
+}
+/* Complaint Completion */
+
+.completion-card{
+
+    width:800px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+
+}
+
+
+.completion-card h2{
+
+    text-align:center;
+
+    color:#2563EB;
+
+    margin-bottom:15px;
+
+}
+
+
+.completion-card h1{
+
+    text-align:center;
+
+    color:#2563EB;
+
+    font-size:45px;
+
+    margin-bottom:20px;
+
+}
+
+
+.completion-bar{
+
+    width:100%;
+
+    height:18px;
+
+    background:#E5E7EB;
+
+    border-radius:50px;
+
+    overflow:hidden;
+
+}
+
+
+.completion-fill{
+
+    height:100%;
+
+    background:linear-gradient(
+        90deg,
+        #2563EB,
+        #60A5FA
+    );
+
+    transition:.5s ease;
+
+}

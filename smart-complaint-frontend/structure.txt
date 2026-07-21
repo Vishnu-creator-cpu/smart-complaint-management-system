@@ -1,0 +1,206 @@
+Folder PATH listing for volume vishnu personal
+Volume serial number is 000001B0 9265:64AF
+D:\DOTNET INTERNSHIP\PROJECT\SMART-COMPLAINT-FRONTEND\SRC
+|   App.css
+|   App.js
+|   index.css
+|   index.js
+|   structure.txt
+|   
++---assets
+|   +---animations
+|   |       loading.json
+|   |       success.json
+|   |       
+|   +---backgrounds
+|   |       dashboard-bg.png
+|   |       hero-bg.jpg
+|   |       login-bg.png
+|   |       
+|   +---icons
+|   +---images
+|   |       about.png
+|   |       complaint.png
+|   |       no-data.png
+|   |       
+|   \---logo
+|           logo.png
+|           
++---components
+|   +---AdminSidebar
+|   |       AdminSidebar.css
+|   |       AdminSidebar.jsx
+|   |       
+|   +---cards
+|   |       ComplaintCard.jsx
+|   |       DashboardCard.jsx
+|   |       FeatureCards.css
+|   |       FeatureCards.jsx
+|   |       
+|   +---charts
+|   |       CategoryChart.jsx
+|   |       ComplaintChart.css
+|   |       ComplaintChart.jsx
+|   |       StatusChart.jsx
+|   |       
+|   +---common
+|   |       Button.jsx
+|   |       HelpButton.jsx
+|   |       Loader.jsx
+|   |       Modal.jsx
+|   |       SearchBar.jsx
+|   |       ThemeToggle.jsx
+|   |       
+|   +---dashboard
+|   |       StatCard.css
+|   |       StatCard.jsx
+|   |       WelcomeBanner.css
+|   |       WelcomeBanner.jsx
+|   |       
+|   +---footer
+|   |       Footer.jsx
+|   |       
+|   +---gallery
+|   |       ImageGallery.jsx
+|   |       
+|   +---navbar
+|   |       Navbar.css
+|   |       Navbar.jsx
+|   |       
+|   +---notifications
+|   |       NotificationBell.jsx
+|   |       
+|   +---OfficerSidebar
+|   |       OfficerSidebar.css
+|   |       OfficerSidebar.jsx
+|   |       
+|   +---sidebar
+|   |       Sidebar.css
+|   |       Sidebar.jsx
+|   |       
+|   +---timeline
+|   |       ComplaintTimeline.jsx
+|   |       
+|   \---topbar
+|           Topbar.css
+|           Topbar.jsx
+|           
++---context
+|       AuthContext.jsx
+|       
++---hooks
+|       UseAuth.js
+|       UseTheme.js
+|       
++---layouts
+|       CitizenLayout.jsx
+|       MainLayout.jsx
+|       OfficerLayout.jsx
+|       
++---pages
+|   +---about
+|   |       About.jsx
+|   |       
+|   +---admin
+|   |   |   AssignComplaint.css
+|   |   |   AssignComplaint.jsx
+|   |   |   Complaints.css
+|   |   |   Complaints.jsx
+|   |   |   Dashboard.jsx
+|   |   |   Officers.jsx
+|   |   |   Profile.css
+|   |   |   Profile.jsx
+|   |   |   Reports.css
+|   |   |   Reports.jsx
+|   |   |   UpdateStatus.css
+|   |   |   UpdateStatus.jsx
+|   |   |   
+|   |   +---AdminDashboard
+|   |   |       AdminDashboard.css
+|   |   |       AdminDashboard.jsx
+|   |   |       
+|   |   \---AdminLayout
+|   |           AdminLayout.css
+|   |           AdminLayout.jsx
+|   |           
+|   +---auth
+|   |       Login.css
+|   |       Login.jsx
+|   |       Register.css
+|   |       Register.jsx
+|   |       
+|   +---citizen
+|   |   |   ComplaintDetails.jsx
+|   |   |   Dashboard.css
+|   |   |   Dashboard.jsx
+|   |   |   
+|   |   +---MyComplaints
+|   |   |       MyComplaints.css
+|   |   |       MyComplaints.jsx
+|   |   |       
+|   |   +---Profile
+|   |   |       Profile.css
+|   |   |       Profile.jsx
+|   |   |       
+|   |   +---RegisterComplaint
+|   |   |       RegisterComplaint.css
+|   |   |       RegisterComplaint.jsx
+|   |   |       
+|   |   \---TrackComplaint
+|   |           TrackComplaint.css
+|   |           TrackComplaint.jsx
+|   |           
+|   +---contact
+|   |       Contact.jsx
+|   |       
+|   +---error
+|   |       NotFound.jsx
+|   |       
+|   +---landing
+|   |       Landing.css
+|   |       Landing.jsx
+|   |       
+|   \---officer
+|       |   AssignedComplaints.jsx
+|       |   Profile.jsx
+|       |   UploadImages.jsx
+|       |   
+|       +---MyComplaints
+|       |       MyComplaints.css
+|       |       MyComplaints.jsx
+|       |       
+|       +---OfficerDashboard
+|       |       OfficerDashboard.css
+|       |       OfficerDashboard.jsx
+|       |       
+|       \---OfficerLayout
+|               OfficerLayout.css
+|               OfficerLayout.jsx
+|               
++---routes
+|       AppRoutes.jsx
+|       ProtectedRoute.jsx
+|       
++---services
+|       AdminService.js
+|       AuthService.js
+|       AxiosInstance.js
+|       CitizenService.js
+|       ComplaintService.js
+|       DashboardService.js
+|       LoginService.js
+|       OfficerService.js
+|       ProfileService.js
+|       RegisterService.js
+|       
++---styles
+|       Animations.css
+|       Glass.css
+|       Global.css
+|       Responsive.css
+|       Variables.css
+|       
+\---utils
+        Constants.js
+        Helper.js
+        

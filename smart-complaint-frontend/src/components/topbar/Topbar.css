@@ -1,0 +1,153 @@
+.topbar {
+    width: 100%;
+    min-height: 118px;
+     background: linear-gradient(
+        135deg,
+        #0F172A,
+        #1E3A8A,
+        #2563EB
+    );
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 24px 36px;
+    box-sizing: border-box;
+
+    box-shadow: 0 8px 25px rgba(15, 23, 42, 0.06);
+}
+
+/* LEFT SIDE */
+
+.topbar-left h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+}
+
+.topbar-left p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: #E2E8F0;
+}
+
+/* RIGHT SIDE */
+
+.topbar-right {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+/* NOTIFICATION */
+
+.notification {
+    position: relative;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    background: #eff6ff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #2563eb;
+    font-size: 20px;
+
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.notification:hover {
+    background: #dbeafe;
+    transform: translateY(-3px);
+}
+
+.notification span {
+    position: absolute;
+    top: -5px;
+    right: -3px;
+
+    width: 22px;
+    height: 22px;
+
+    border-radius: 50%;
+    background: #ef4444;
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* USER PROFILE */
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+
+    cursor: pointer;
+}
+
+.user-icon {
+    font-size: 46px;
+    color: #e3e7f0;
+}
+
+.user-profile h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #d3d7e0;
+}
+
+.user-profile p {
+    margin: 3px 0 0;
+    font-size: 14px;
+    color: #d2d6db;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .topbar {
+        padding: 20px;
+        min-height: 100px;
+    }
+
+    .topbar-left h1 {
+        font-size: 27px;
+    }
+
+    .topbar-left p {
+        font-size: 14px;
+    }
+
+    .topbar-right {
+        gap: 15px;
+    }
+
+    .user-profile div {
+        display: none;
+    }
+
+    .notification {
+        width: 44px;
+        height: 44px;
+    }
+
+    .user-icon {
+        font-size: 42px;
+    }
+}

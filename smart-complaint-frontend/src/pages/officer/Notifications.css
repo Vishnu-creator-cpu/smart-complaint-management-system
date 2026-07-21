@@ -1,0 +1,42 @@
+.notification-container{
+
+    padding:30px;
+}
+
+
+.notification-container h1{
+
+    margin-bottom:30px;
+}
+
+
+.notification-card{
+
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+    margin-bottom:20px;
+}
+
+
+.notification-card h3{
+
+    color:#0F172A;
+}
+
+
+.notification-card p{
+
+    margin-top:10px;
+    color:gray;
+}
+
+
+.notification-card span{
+
+    display:block;
+    margin-top:15px;
+    color:#777;
+    font-size:14px;
+}

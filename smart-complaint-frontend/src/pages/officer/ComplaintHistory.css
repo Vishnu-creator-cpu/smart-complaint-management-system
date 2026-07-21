@@ -1,0 +1,152 @@
+.history-container {
+    max-width: 1300px;
+    margin: 40px auto;
+    padding: 30px;
+}
+
+
+/* Heading */
+
+.history-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #1e293b;
+}
+
+
+/* Complaint Details */
+
+.history-card {
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    margin-bottom: 40px;
+}
+
+.history-card p {
+    margin: 15px 0;
+    font-size: 17px;
+    color: #334155;
+}
+
+.history-card strong {
+    color: #0f172a;
+}
+
+
+/* Work Images */
+
+.history-container h2 {
+    margin-bottom: 25px;
+    color: #0f172a;
+}
+
+
+.images-container {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit,minmax(320px,1fr));
+
+    gap: 30px;
+}
+
+
+/* Individual Card */
+
+.image-card {
+
+    background: white;
+
+    border-radius: 18px;
+
+    padding: 20px;
+
+    box-shadow:
+        0 8px 20px rgba(0,0,0,0.08);
+
+    transition: 0.3s;
+
+}
+
+
+.image-card:hover {
+
+    transform: translateY(-5px);
+
+}
+
+
+.image-card h3 {
+
+    text-align: center;
+
+    color: #2563eb;
+
+    margin-bottom: 15px;
+
+}
+
+
+/* Images */
+
+.image-card img {
+
+    width: 100%;
+
+    height: 240px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    margin-bottom: 15px;
+
+}
+
+
+/* Image Details */
+
+.image-card p {
+
+    margin: 8px 0;
+
+    color: #475569;
+
+    font-size: 15px;
+
+}
+
+
+/* Button */
+
+.history-container button {
+
+    margin-top: 35px;
+
+    padding: 12px 25px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #2563eb;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+
+.history-container button:hover {
+
+    background: #1d4ed8;
+
+}

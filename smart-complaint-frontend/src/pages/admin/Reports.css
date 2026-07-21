@@ -1,0 +1,40 @@
+.reports-container{
+    padding:30px;
+}
+
+.date-filter{
+    display:flex;
+    gap:15px;
+    margin-bottom:25px;
+}
+
+.date-filter input{
+    padding:10px;
+}
+
+.date-filter button{
+    padding:10px 20px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.reports-table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+}
+
+.reports-table th,
+.reports-table td{
+    padding:15px;
+    border:1px solid #ddd;
+    text-align:center;
+}
+
+.reports-table th{
+    background:#2563eb;
+    color:white;
+}

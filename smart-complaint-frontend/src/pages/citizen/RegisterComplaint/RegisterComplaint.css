@@ -1,0 +1,287 @@
+.register-container{
+
+min-height:100vh;
+padding:40px;
+
+display:flex;
+justify-content:center;
+align-items:flex-start;
+gap:30px;
+
+flex-wrap:wrap;
+
+}
+
+.register-card {
+    width: 100%;
+    max-width: 850px;
+    background: linear-gradient(160deg, #eef2ff 0%, #e0e7ff 40%, #dbeafe 100%);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 35px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+    animation: fadeIn 0.5s ease;
+}
+
+.register-card h2 {
+    text-align: center;
+    color: #1e3a8a;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.register-card form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.register-card input,
+.register-card textarea,
+.register-card select {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    transition: .3s;
+    background: #f9fafb;
+}
+
+.register-card textarea {
+    resize: none;
+    min-height: 120px;
+}
+
+.register-card textarea,
+.register-card button {
+    grid-column: span 2;
+}
+
+.register-card input:focus,
+.register-card textarea:focus,
+.register-card select:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 10px rgba(37, 99, 235, .2);
+    background: white;
+}
+
+.register-card input[type=file] {
+    padding: 10px;
+    background: #fff;
+}
+
+.register-card button {
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .3s;
+    font-weight: 600;
+}
+
+.register-card button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(37, 99, 235, .35);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media(max-width:768px) {
+
+    .register-card form {
+        grid-template-columns: 1fr;
+    }
+
+    .register-card textarea,
+    .register-card button {
+        grid-column: span 1;
+    }
+
+}
+
+.register-preview{
+
+width:350px;
+
+background: linear-gradient(160deg, #eef2ff 0%, #e0e7ff 40%, #dbeafe 100%);
+position: relative;
+overflow: hidden;
+
+padding:30px;
+
+border-radius:20px;
+
+box-shadow: 0 20px 40px rgba(37, 99, 235, .18);
+border: 1px solid rgba(255, 255, 255, 0.6);
+
+}
+
+.register-preview::before {
+    content: "";
+    position: absolute;
+    top: -60px;
+    right: -60px;
+    width: 180px;
+    height: 180px;
+    background: radial-gradient(circle, rgba(37, 99, 235, 0.18) 0%, rgba(37, 99, 235, 0) 70%);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.register-preview > * {
+    position: relative;
+    z-index: 1;
+}
+
+
+.preview-title{
+
+color:#2563EB;
+
+font-size:28px;
+
+margin-bottom:25px;
+
+text-align:center;
+
+}
+
+
+.preview-box{
+
+background: rgba(255, 255, 255, 0.75);
+backdrop-filter: blur(6px);
+
+padding:20px;
+
+border-radius:15px;
+
+margin-bottom:25px;
+
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+
+}
+
+
+.preview-box p{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 10px;
+
+margin-bottom:12px;
+
+font-size:15px;
+
+line-height:1.7;
+
+text-align: left;
+
+}
+
+.preview-box p:last-child {
+    margin-bottom: 0;
+}
+
+.preview-box strong{
+
+color: #1e3a8a;
+white-space: nowrap;
+
+}
+
+
+.workflow{
+
+background: rgba(255, 255, 255, 0.6);
+
+padding:20px;
+
+border-radius:15px;
+
+margin-bottom:25px;
+
+}
+
+
+.workflow h3{
+
+text-align:center;
+
+color:#2563EB;
+
+margin-bottom:15px;
+
+}
+
+
+.workflow-step{
+
+background:white;
+
+padding:10px;
+
+border-radius:10px;
+
+margin-bottom:10px;
+
+text-align:center;
+
+font-weight:600;
+
+color:#2563EB;
+
+}
+
+
+.tips-box{
+
+background:#F8FAFC;
+
+padding:20px;
+
+border-radius:15px;
+
+}
+
+
+.tips-box h3{
+
+color:#2563EB;
+
+margin-bottom:15px;
+
+}
+
+
+.tips-box ul{
+
+padding-left:20px;
+
+}
+
+
+.tips-box li{
+
+margin-bottom:10px;
+
+line-height:1.5;
+
+}

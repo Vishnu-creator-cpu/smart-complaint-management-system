@@ -1,0 +1,256 @@
+.upload-work-container {
+
+    min-height: 100vh;
+    background: #F1F5F9;
+    padding: 40px;
+
+}
+
+.upload-work-container h1 {
+
+    color: #0F172A;
+    margin-bottom: 10px;
+    font-size: 32px;
+
+}
+
+.complaint-id {
+
+    color: #64748B;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+
+/* Form Card */
+
+.upload-form {
+
+    background: #FFFFFF;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+
+}
+
+
+/* Form Groups */
+
+.form-group {
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+
+}
+
+.form-group label {
+
+    font-size: 18px;
+    font-weight: 600;
+    color: #0F172A;
+    margin-bottom: 10px;
+
+}
+
+
+/* Inputs */
+
+.form-group input,
+.form-group select {
+
+    padding: 15px;
+    border: 1px solid #CBD5E1;
+    border-radius: 12px;
+    outline: none;
+    font-size: 16px;
+
+}
+
+.form-group input:focus,
+.form-group select:focus {
+
+    border: 2px solid #2563EB;
+
+}
+
+
+/* Image Preview */
+
+.image-preview-container {
+
+    margin-bottom: 30px;
+
+}
+
+.image-preview-container h3 {
+
+    color: #0F172A;
+    margin-bottom: 15px;
+
+}
+
+.image-preview {
+
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.10);
+    transition: .3s ease;
+
+}
+
+.image-preview:hover {
+
+    transform: scale(1.02);
+
+}
+
+
+/* Location Button */
+
+.location-btn {
+
+    background: #2563EB;
+    color: white;
+    border: none;
+    padding: 14px 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 25px;
+    transition: .3s ease;
+
+}
+
+.location-btn:hover {
+
+    background: #1D4ED8;
+    transform: translateY(-2px);
+
+}
+
+
+/* Location Card */
+
+.location-card {
+
+    background: #EFF6FF;
+    border-left: 5px solid #2563EB;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+
+}
+
+.location-card h3 {
+
+    color: #2563EB;
+    margin-bottom: 15px;
+
+}
+
+.location-card p {
+
+    color: #334155;
+    margin-bottom: 10px;
+    font-size: 16px;
+
+}
+
+
+/* Action Buttons */
+
+.action-buttons {
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+
+/* Upload Button */
+
+.upload-btn {
+
+    background: #22C55E;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .3s ease;
+
+}
+
+.upload-btn:hover {
+
+    background: #16A34A;
+    transform: translateY(-2px);
+
+}
+
+
+/* Back Button */
+
+.back-btn {
+
+    background: #64748B;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .3s ease;
+
+}
+
+.back-btn:hover {
+
+    background: #475569;
+    transform: translateY(-2px);
+
+}
+
+
+/* Responsive Design */
+
+@media (max-width:768px) {
+
+    .upload-work-container {
+
+        padding: 20px;
+
+    }
+
+    .upload-form {
+
+        padding: 20px;
+
+    }
+
+    .action-buttons {
+
+        flex-direction: column;
+
+    }
+
+    .upload-btn,
+    .back-btn {
+
+        width: 100%;
+
+    }
+
+    .location-btn {
+
+        width: 100%;
+
+    }
+
+}

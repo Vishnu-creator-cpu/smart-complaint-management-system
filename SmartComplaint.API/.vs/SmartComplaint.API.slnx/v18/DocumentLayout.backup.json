@@ -1,0 +1,1661 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\controllers\\complaintcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:controllers\\complaintcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\services\\interfaces\\icomplaintservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:services\\interfaces\\icomplaintservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\services\\implementations\\complaintservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:services\\implementations\\complaintservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\services\\implementations\\officerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:services\\implementations\\officerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\services\\interfaces\\iofficerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:services\\interfaces\\iofficerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\controllers\\officercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:controllers\\officercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\officer\\complainttimelinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\officer\\complainttimelinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\services\\implementations\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:services\\implementations\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\services\\interfaces\\iprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:services\\interfaces\\iprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\common\\profiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\common\\profiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\dashboard\\officerdashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\dashboard\\officerdashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\services\\implementations\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:services\\implementations\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\models\\officer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:models\\officer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\configuration\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:configuration\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\controllers\\citizendashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:controllers\\citizendashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\officer\\marknotificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\officer\\marknotificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\officer\\complainthistorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\officer\\complainthistorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\officer\\complaintimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\officer\\complaintimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\officer\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\officer\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\models\\complaintimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:models\\complaintimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\officer\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\officer\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\officer\\updateprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\officer\\updateprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\officer\\officerprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\officer\\officerprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\admin\\officerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\admin\\officerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\officer\\officercomplaintdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\officer\\officercomplaintdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\officer\\completecomplaintdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\officer\\completecomplaintdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\models\\complaintstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:models\\complaintstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\models\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:models\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\models\\complaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:models\\complaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\admin\\updatecomplaintstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\admin\\updatecomplaintstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\services\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:services\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\auth\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\auth\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\helpers\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:helpers\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\dashboard\\admindashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\dashboard\\admindashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\admin\\complaintlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\admin\\complaintlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\admin\\assigncomplaintdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\admin\\assigncomplaintdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\admin\\admincomplaintdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\admin\\admincomplaintdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\complaint\\createcomplaintdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\complaint\\createcomplaintdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\services\\implementations\\citizendashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:services\\implementations\\citizendashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\services\\interfaces\\icitizendashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:services\\interfaces\\icitizendashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\dashboard\\citizendashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\dashboard\\citizendashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\common\\paginationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\common\\paginationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\models\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:models\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\services\\reports\\complaintreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:services\\reports\\complaintreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\services\\interfaces\\icomplaintreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:services\\interfaces\\icomplaintreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\reports\\complaintreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\reports\\complaintreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\officer\\officercomplaintdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\officer\\officercomplaintdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\officer\\uploadworkphotodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\officer\\uploadworkphotodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\admin\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\admin\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\officer\\afterworkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\officer\\afterworkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\officer\\duringworkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\officer\\duringworkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\officer\\beforeworkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\officer\\beforeworkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\officer\\workremarksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\officer\\workremarksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\auth\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\auth\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\models\\complainthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:models\\complainthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\configuration\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:configuration\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\configuration\\filesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:configuration\\filesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\smartcomplaint.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:smartcomplaint.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\smartcomplaint.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:smartcomplaint.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\services\\implementations\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:services\\implementations\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\helpers\\complaintnumbergenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:helpers\\complaintnumbergenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\complaint\\complaintstatussdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\complaint\\complaintstatussdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\complaint\\complaintresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\complaint\\complaintresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\services\\interfaces\\ipdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:services\\interfaces\\ipdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\services\\interfaces\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:services\\interfaces\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\services\\interfaces\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:services\\interfaces\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\auth\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\auth\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\models\\emaillog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:models\\emaillog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\models\\complaintcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:models\\complaintcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\helpers\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:helpers\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\helpers\\geotaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:helpers\\geotaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\helpers\\filehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:helpers\\filehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\services\\implementations\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:services\\implementations\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\services\\implementations\\pdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:services\\implementations\\pdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\dashboard\\userdashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\dashboard\\userdashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\complaint\\complaintdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\complaint\\complaintdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\complaint\\updatecomplaintdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\complaint\\updatecomplaintdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|d:\\dotnet internship\\.net c-sharp\\smartcomplaint.api\\dtos\\auth\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160A57-C7BF-4867-B101-5CCB49482297}|SmartComplaint.API.csproj|solutionrelative:dtos\\auth\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OfficerService.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Implementations\\OfficerService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\OfficerService.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Implementations\\OfficerService.cs",
+              "RelativeToolTip": "Services\\Implementations\\OfficerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPkBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:59:58.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IOfficerService.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Interfaces\\IOfficerService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IOfficerService.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Interfaces\\IOfficerService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IOfficerService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T16:35:23.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ComplaintService.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Implementations\\ComplaintService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\ComplaintService.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Implementations\\ComplaintService.cs",
+              "RelativeToolTip": "Services\\Implementations\\ComplaintService.cs",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAuwN8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:59:43.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IComplaintService.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Interfaces\\IComplaintService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IComplaintService.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Interfaces\\IComplaintService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IComplaintService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T16:32:51.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ComplaintController.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Controllers\\ComplaintController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ComplaintController.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Controllers\\ComplaintController.cs",
+              "RelativeToolTip": "Controllers\\ComplaintController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:37:04.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OfficerController.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Controllers\\OfficerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OfficerController.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Controllers\\OfficerController.cs",
+              "RelativeToolTip": "Controllers\\OfficerController.cs",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAwwOYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:39:19.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswA4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:36:45.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ComplaintTimelineDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\ComplaintTimelineDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Officer\\ComplaintTimelineDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\ComplaintTimelineDto.cs",
+              "RelativeToolTip": "DTOs\\Officer\\ComplaintTimelineDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T03:13:53.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProfileService.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Implementations\\ProfileService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\ProfileService.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Implementations\\ProfileService.cs",
+              "RelativeToolTip": "Services\\Implementations\\ProfileService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T06:40:50.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Controllers\\ProfileController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwD4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T06:41:46.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IProfileService.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Interfaces\\IProfileService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IProfileService.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Interfaces\\IProfileService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IProfileService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T06:40:16.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProfileDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Common\\ProfileDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Common\\ProfileDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Common\\ProfileDto.cs",
+              "RelativeToolTip": "DTOs\\Common\\ProfileDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T06:39:18.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T16:13:16.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OfficerDashboardDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Dashboard\\OfficerDashboardDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Dashboard\\OfficerDashboardDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Dashboard\\OfficerDashboardDto.cs",
+              "RelativeToolTip": "DTOs\\Dashboard\\OfficerDashboardDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:53:35.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmailController.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Controllers\\EmailController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmailController.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Controllers\\EmailController.cs",
+              "RelativeToolTip": "Controllers\\EmailController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:40:46.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Officer.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Models\\Officer.cs",
+              "RelativeDocumentMoniker": "Models\\Officer.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Models\\Officer.cs",
+              "RelativeToolTip": "Models\\Officer.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:44:01.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Implementations\\AdminService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\AdminService.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Implementations\\AdminService.cs",
+              "RelativeToolTip": "Services\\Implementations\\AdminService.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAIwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T14:00:11.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Configuration\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "Configuration\\EmailSettings.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Configuration\\EmailSettings.cs",
+              "RelativeToolTip": "Configuration\\EmailSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T15:48:33.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-10T16:01:43.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CitizenDashboardController.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Controllers\\CitizenDashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CitizenDashboardController.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Controllers\\CitizenDashboardController.cs",
+              "RelativeToolTip": "Controllers\\CitizenDashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T05:36:03.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Implementations\\EmailService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\EmailService.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Implementations\\EmailService.cs",
+              "RelativeToolTip": "Services\\Implementations\\EmailService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAUwEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T14:01:35.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IEmailService.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T16:34:04.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ComplaintImageDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\ComplaintImageDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Officer\\ComplaintImageDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\ComplaintImageDto.cs",
+              "RelativeToolTip": "DTOs\\Officer\\ComplaintImageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T04:04:21.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ComplaintHistoryDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\ComplaintHistoryDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Officer\\ComplaintHistoryDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\ComplaintHistoryDto.cs",
+              "RelativeToolTip": "DTOs\\Officer\\ComplaintHistoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T04:05:09.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MarkNotificationDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\MarkNotificationDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Officer\\MarkNotificationDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\MarkNotificationDto.cs",
+              "RelativeToolTip": "DTOs\\Officer\\MarkNotificationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T08:16:36.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ChangePasswordDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\ChangePasswordDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Officer\\ChangePasswordDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\ChangePasswordDto.cs",
+              "RelativeToolTip": "DTOs\\Officer\\ChangePasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T18:18:56.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ComplaintImage.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Models\\ComplaintImage.cs",
+              "RelativeDocumentMoniker": "Models\\ComplaintImage.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Models\\ComplaintImage.cs",
+              "RelativeToolTip": "Models\\ComplaintImage.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:45:44.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "Models\\Notification.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Models\\Notification.cs",
+              "RelativeToolTip": "Models\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T18:49:35.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "NotificationDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\NotificationDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Officer\\NotificationDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\NotificationDto.cs",
+              "RelativeToolTip": "DTOs\\Officer\\NotificationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T18:58:26.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "OfficerProfileDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\OfficerProfileDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Officer\\OfficerProfileDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\OfficerProfileDto.cs",
+              "RelativeToolTip": "DTOs\\Officer\\OfficerProfileDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T17:43:43.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwEEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:47:21.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UpdateProfileDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\UpdateProfileDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Officer\\UpdateProfileDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\UpdateProfileDto.cs",
+              "RelativeToolTip": "DTOs\\Officer\\UpdateProfileDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T18:25:52.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OfficerDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Admin\\OfficerDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Admin\\OfficerDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Admin\\OfficerDto.cs",
+              "RelativeToolTip": "DTOs\\Admin\\OfficerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T04:24:55.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "OfficerComplaintDetailsDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\OfficerComplaintDetailsDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Officer\\OfficerComplaintDetailsDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\OfficerComplaintDetailsDto.cs",
+              "RelativeToolTip": "DTOs\\Officer\\OfficerComplaintDetailsDto.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T06:07:25.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CompleteComplaintDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\CompleteComplaintDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Officer\\CompleteComplaintDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\CompleteComplaintDto.cs",
+              "RelativeToolTip": "DTOs\\Officer\\CompleteComplaintDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T11:45:26.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAFEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:37:23.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ComplaintStatus.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Models\\ComplaintStatus.cs",
+              "RelativeDocumentMoniker": "Models\\ComplaintStatus.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Models\\ComplaintStatus.cs",
+              "RelativeToolTip": "Models\\ComplaintStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:45:00.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Assignment.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Models\\Assignment.cs",
+              "RelativeDocumentMoniker": "Models\\Assignment.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Models\\Assignment.cs",
+              "RelativeToolTip": "Models\\Assignment.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwB8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:45:21.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Complaint.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Models\\Complaint.cs",
+              "RelativeDocumentMoniker": "Models\\Complaint.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Models\\Complaint.cs",
+              "RelativeToolTip": "Models\\Complaint.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAwE0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:44:21.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAuwEAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:43:04.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Implementations\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\AuthService.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Implementations\\AuthService.cs",
+              "RelativeToolTip": "Services\\Implementations\\AuthService.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAqwGwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:59:29.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T16:32:18.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Interfaces\\IAdminService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAdminService.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Interfaces\\IAdminService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAdminService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T16:31:45.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Helpers\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "Helpers\\JwtTokenGenerator.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Helpers\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "Helpers\\JwtTokenGenerator.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T15:41:56.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UpdateComplaintStatusDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Admin\\UpdateComplaintStatusDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Admin\\UpdateComplaintStatusDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Admin\\UpdateComplaintStatusDto.cs",
+              "RelativeToolTip": "DTOs\\Admin\\UpdateComplaintStatusDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T04:48:41.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAowDwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:36:19.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Auth\\LoginDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Auth\\LoginDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Auth\\LoginDto.cs",
+              "RelativeToolTip": "DTOs\\Auth\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:48:47.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AdminComplaintDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Admin\\AdminComplaintDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Admin\\AdminComplaintDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Admin\\AdminComplaintDto.cs",
+              "RelativeToolTip": "DTOs\\Admin\\AdminComplaintDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T13:33:33.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Auth\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Auth\\LoginResponseDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Auth\\LoginResponseDto.cs",
+              "RelativeToolTip": "DTOs\\Auth\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T17:47:27.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AssignComplaintDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Admin\\AssignComplaintDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Admin\\AssignComplaintDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Admin\\AssignComplaintDto.cs",
+              "RelativeToolTip": "DTOs\\Admin\\AssignComplaintDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T17:45:13.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AdminDashboardDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Dashboard\\AdminDashboardDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Dashboard\\AdminDashboardDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Dashboard\\AdminDashboardDto.cs",
+              "RelativeToolTip": "DTOs\\Dashboard\\AdminDashboardDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:53:49.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ComplaintListDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Admin\\ComplaintListDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Admin\\ComplaintListDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Admin\\ComplaintListDto.cs",
+              "RelativeToolTip": "DTOs\\Admin\\ComplaintListDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T06:46:08.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CreateComplaintDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Complaint\\CreateComplaintDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Complaint\\CreateComplaintDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Complaint\\CreateComplaintDto.cs",
+              "RelativeToolTip": "DTOs\\Complaint\\CreateComplaintDto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:50:30.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CitizenDashboardService.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Implementations\\CitizenDashboardService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\CitizenDashboardService.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Implementations\\CitizenDashboardService.cs",
+              "RelativeToolTip": "Services\\Implementations\\CitizenDashboardService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T05:35:22.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ICitizenDashboardService.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Interfaces\\ICitizenDashboardService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICitizenDashboardService.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Interfaces\\ICitizenDashboardService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ICitizenDashboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T05:32:10.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CitizenDashboardDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Dashboard\\CitizenDashboardDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Dashboard\\CitizenDashboardDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Dashboard\\CitizenDashboardDto.cs",
+              "RelativeToolTip": "DTOs\\Dashboard\\CitizenDashboardDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T05:31:25.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ComplaintReportDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Reports\\ComplaintReportDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Reports\\ComplaintReportDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Reports\\ComplaintReportDto.cs",
+              "RelativeToolTip": "DTOs\\Reports\\ComplaintReportDto.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T12:14:20.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Common\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\Common\\ApiResponse.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Common\\ApiResponse.cs",
+              "RelativeToolTip": "DTOs\\Common\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:54:24.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "PaginationDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Common\\PaginationDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Common\\PaginationDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Common\\PaginationDto.cs",
+              "RelativeToolTip": "DTOs\\Common\\PaginationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:54:40.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "IComplaintReportService.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Interfaces\\IComplaintReportService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IComplaintReportService.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Interfaces\\IComplaintReportService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IComplaintReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T12:19:10.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Models\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "Models\\EmailSettings.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Models\\EmailSettings.cs",
+              "RelativeToolTip": "Models\\EmailSettings.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA3wBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T12:41:32.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ComplaintReportService.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Reports\\ComplaintReportService.cs",
+              "RelativeDocumentMoniker": "Services\\Reports\\ComplaintReportService.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Reports\\ComplaintReportService.cs",
+              "RelativeToolTip": "Services\\Reports\\ComplaintReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T12:23:56.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "UploadWorkPhotoDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\UploadWorkPhotoDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Officer\\UploadWorkPhotoDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\UploadWorkPhotoDto.cs",
+              "RelativeToolTip": "DTOs\\Officer\\UploadWorkPhotoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:52:34.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "OfficerComplaintDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\OfficerComplaintDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Officer\\OfficerComplaintDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\OfficerComplaintDto.cs",
+              "RelativeToolTip": "DTOs\\Officer\\OfficerComplaintDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T09:36:02.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "DashboardDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Admin\\DashboardDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Admin\\DashboardDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Admin\\DashboardDto.cs",
+              "RelativeToolTip": "DTOs\\Admin\\DashboardDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T11:52:58.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "AfterWorkDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\AfterWorkDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Officer\\AfterWorkDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\AfterWorkDto.cs",
+              "RelativeToolTip": "DTOs\\Officer\\AfterWorkDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T11:19:45.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "DuringWorkDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\DuringWorkDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Officer\\DuringWorkDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\DuringWorkDto.cs",
+              "RelativeToolTip": "DTOs\\Officer\\DuringWorkDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T11:08:24.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "BeforeWorkDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\BeforeWorkDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Officer\\BeforeWorkDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\BeforeWorkDto.cs",
+              "RelativeToolTip": "DTOs\\Officer\\BeforeWorkDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T07:00:57.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "WorkRemarksDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\WorkRemarksDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Officer\\WorkRemarksDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Officer\\WorkRemarksDto.cs",
+              "RelativeToolTip": "DTOs\\Officer\\WorkRemarksDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:52:48.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ResetPasswordDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Auth\\ResetPasswordDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Auth\\ResetPasswordDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Auth\\ResetPasswordDto.cs",
+              "RelativeToolTip": "DTOs\\Auth\\ResetPasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:49:35.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "ComplaintHistory.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Models\\ComplaintHistory.cs",
+              "RelativeDocumentMoniker": "Models\\ComplaintHistory.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Models\\ComplaintHistory.cs",
+              "RelativeToolTip": "Models\\ComplaintHistory.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA4wDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:45:59.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TestController.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Controllers\\TestController.cs",
+              "RelativeToolTip": "Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T08:23:29.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReportController.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "Controllers\\ReportController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:40:09.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:39:36.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:39:53.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Configuration\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "Configuration\\JwtSettings.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Configuration\\JwtSettings.cs",
+              "RelativeToolTip": "Configuration\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T15:48:17.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "FileSettings.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Configuration\\FileSettings.cs",
+              "RelativeDocumentMoniker": "Configuration\\FileSettings.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Configuration\\FileSettings.cs",
+              "RelativeToolTip": "Configuration\\FileSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T15:48:52.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "SmartComplaint.API.csproj",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\SmartComplaint.API.csproj",
+              "RelativeDocumentMoniker": "SmartComplaint.API.csproj",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\SmartComplaint.API.csproj",
+              "RelativeToolTip": "SmartComplaint.API.csproj",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwBwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-11T09:07:51.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "SmartComplaint.API.http",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\SmartComplaint.API.http",
+              "RelativeDocumentMoniker": "SmartComplaint.API.http",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\SmartComplaint.API.http",
+              "RelativeToolTip": "SmartComplaint.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-07-10T15:51:12.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "DashboardService.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Implementations\\DashboardService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\DashboardService.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Implementations\\DashboardService.cs",
+              "RelativeToolTip": "Services\\Implementations\\DashboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T14:00:24.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "ComplaintNumberGenerator.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Helpers\\ComplaintNumberGenerator.cs",
+              "RelativeDocumentMoniker": "Helpers\\ComplaintNumberGenerator.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Helpers\\ComplaintNumberGenerator.cs",
+              "RelativeToolTip": "Helpers\\ComplaintNumberGenerator.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAmwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T15:42:31.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "ComplaintStatussDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Complaint\\ComplaintStatussDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Complaint\\ComplaintStatussDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Complaint\\ComplaintStatussDto.cs",
+              "RelativeToolTip": "DTOs\\Complaint\\ComplaintStatussDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T17:08:45.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "ComplaintResponseDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Complaint\\ComplaintResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Complaint\\ComplaintResponseDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Complaint\\ComplaintResponseDto.cs",
+              "RelativeToolTip": "DTOs\\Complaint\\ComplaintResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:51:19.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "IPdfService.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Interfaces\\IPdfService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IPdfService.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Interfaces\\IPdfService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IPdfService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T16:35:56.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "IFileService.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Interfaces\\IFileService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IFileService.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Interfaces\\IFileService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IFileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T16:34:33.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "IDashboardService.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Interfaces\\IDashboardService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IDashboardService.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Interfaces\\IDashboardService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IDashboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T16:33:27.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Auth\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Auth\\RegisterDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Auth\\RegisterDto.cs",
+              "RelativeToolTip": "DTOs\\Auth\\RegisterDto.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:49:01.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "ForgotPasswordDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Auth\\ForgotPasswordDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Auth\\ForgotPasswordDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Auth\\ForgotPasswordDto.cs",
+              "RelativeToolTip": "DTOs\\Auth\\ForgotPasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:49:16.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Role.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Models\\Role.cs",
+              "RelativeToolTip": "Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:42:46.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "EmailLog.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Models\\EmailLog.cs",
+              "RelativeDocumentMoniker": "Models\\EmailLog.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Models\\EmailLog.cs",
+              "RelativeToolTip": "Models\\EmailLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:46:11.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "ComplaintCategory.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Models\\ComplaintCategory.cs",
+              "RelativeDocumentMoniker": "Models\\ComplaintCategory.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Models\\ComplaintCategory.cs",
+              "RelativeToolTip": "Models\\ComplaintCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:44:42.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T15:49:56.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "JwtMiddleware.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Middleware\\JwtMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\JwtMiddleware.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Middleware\\JwtMiddleware.cs",
+              "RelativeToolTip": "Middleware\\JwtMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T15:50:14.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Helpers\\Constants.cs",
+              "RelativeDocumentMoniker": "Helpers\\Constants.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Helpers\\Constants.cs",
+              "RelativeToolTip": "Helpers\\Constants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T15:43:32.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "GeoTagHelper.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Helpers\\GeoTagHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\GeoTagHelper.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Helpers\\GeoTagHelper.cs",
+              "RelativeToolTip": "Helpers\\GeoTagHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T15:43:14.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "FileHelper.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Helpers\\FileHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\FileHelper.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Helpers\\FileHelper.cs",
+              "RelativeToolTip": "Helpers\\FileHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T15:42:49.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Implementations\\FileService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\FileService.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Implementations\\FileService.cs",
+              "RelativeToolTip": "Services\\Implementations\\FileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T14:02:04.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "PdfService.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Implementations\\PdfService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\PdfService.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\Services\\Implementations\\PdfService.cs",
+              "RelativeToolTip": "Services\\Implementations\\PdfService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T14:01:51.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "UserDashboardDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Dashboard\\UserDashboardDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Dashboard\\UserDashboardDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Dashboard\\UserDashboardDto.cs",
+              "RelativeToolTip": "DTOs\\Dashboard\\UserDashboardDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:53:22.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "ComplaintDetailsDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Complaint\\ComplaintDetailsDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Complaint\\ComplaintDetailsDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Complaint\\ComplaintDetailsDto.cs",
+              "RelativeToolTip": "DTOs\\Complaint\\ComplaintDetailsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:51:02.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "UpdateComplaintDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Complaint\\UpdateComplaintDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Complaint\\UpdateComplaintDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Complaint\\UpdateComplaintDto.cs",
+              "RelativeToolTip": "DTOs\\Complaint\\UpdateComplaintDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:50:46.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "ChangePasswordDto.cs",
+              "DocumentMoniker": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Auth\\ChangePasswordDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Auth\\ChangePasswordDto.cs",
+              "ToolTip": "D:\\dotnet internship\\.NET C-SHARP\\SmartComplaint.API\\DTOs\\Auth\\ChangePasswordDto.cs",
+              "RelativeToolTip": "DTOs\\Auth\\ChangePasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T13:49:50.587Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

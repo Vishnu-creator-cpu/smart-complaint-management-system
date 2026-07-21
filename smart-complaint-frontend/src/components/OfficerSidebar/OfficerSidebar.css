@@ -1,0 +1,63 @@
+.officer-sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #1e293b;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 25px 20px;
+    box-sizing: border-box;
+}
+
+.officer-sidebar h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.officer-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.officer-sidebar li {
+    margin-bottom: 15px;
+}
+
+.officer-sidebar a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.officer-sidebar a:hover {
+    background: #334155;
+}
+
+.officer-logout {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    width: 210px;
+    border: none;
+    background: #dc2626;
+    color: white;
+    padding: 12px;
+    border-radius: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+}
+
+.officer-logout:hover {
+    background: #b91c1c;
+}
