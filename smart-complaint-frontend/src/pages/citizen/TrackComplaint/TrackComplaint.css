@@ -1,327 +1,223 @@
 .track-container {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    padding: 40px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 20px;
+  min-height: 100vh;
+  background: var(--bg-dark);
+  color: var(--text-primary);
 }
 
-
-/* Track Complaint Card */
-
-.track-card {
-
-    width: 800px;
-    background: white;
-    border-radius: 20px;
-    padding: 30px;
-    box-shadow: 0 15px 35px rgba(0,0,0,.12);
-
+.track-card,
+.status-container,
+.completion-card {
+  width: 820px;
+  max-width: 100%;
+  background: var(--bg-card);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: var(--border-glass);
+  border-radius: var(--radius-md);
+  padding: 35px;
+  box-shadow: var(--shadow-card);
 }
 
-.track-card h2 {
-
-    text-align: center;
-    color: #2563EB;
-    margin-bottom: 25px;
-    font-size: 32px;
-
+.track-card h2,
+.status-container h2,
+.completion-card h2 {
+  text-align: center;
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 25px;
+  background: var(--grad-text-glowing);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
-
-/* Search Box */
 
 .search-box {
-
-    display: flex;
-    gap: 15px;
-
+  display: flex;
+  gap: 15px;
 }
 
 .search-box input {
-
-    flex: 1;
-    padding: 15px;
-    border: 1px solid #d1d5db;
-    border-radius: 10px;
-    outline: none;
-    font-size: 16px;
-
+  flex: 1;
+  padding: 14px 18px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-sm);
+  outline: none;
+  font-size: 0.95rem;
+  font-family: var(--font-sans);
+  background: rgba(15, 23, 42, 0.7);
+  color: var(--text-primary);
+  transition: var(--transition-fast);
 }
 
 .search-box input:focus {
-
-    border-color: #2563EB;
-
+  border-color: var(--primary-color);
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.35);
+  background: rgba(15, 23, 42, 0.9);
 }
 
 .search-box button {
-
-    padding: 15px 30px;
-    background: #2563EB;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: .3s;
-
+  padding: 14px 30px;
+  background: var(--grad-primary);
+  color: #ffffff;
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 0.95rem;
+  box-shadow: var(--shadow-primary-glow);
+  transition: var(--transition-fast);
 }
 
 .search-box button:hover {
-
-    background: #1D4ED8;
-
+  background: var(--grad-primary-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(99, 102, 241, 0.6);
 }
 
-
-/* Complaint Details Card */
-
 .result-card {
-
-    margin-top: 30px;
-    background: #F8FAFC;
-    border-radius: 15px;
-    padding: 25px;
-    box-shadow: 0 5px 15px rgba(0,0,0,.06);
-
+  margin-top: 30px;
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-sm);
+  padding: 25px;
 }
 
 .result-card h3 {
-
-    color: #2563EB;
-    margin-bottom: 15px;
-    font-size: 26px;
-
+  color: #A5B4FC;
+  font-family: var(--font-heading);
+  margin-bottom: 15px;
+  font-size: 1.4rem;
 }
 
 .result-card p {
-
-    margin-bottom: 12px;
-    font-size: 16px;
-
-}
-
-
-/* Complaint Progress */
-
-.status-container {
-
-    width: 800px;
-    background: white;
-    border-radius: 20px;
-    padding: 30px;
-    box-shadow: 0 15px 35px rgba(0,0,0,.12);
-
-}
-
-.status-container h2 {
-
-    text-align: center;
-    color: #2563EB;
-    margin-bottom: 30px;
-    font-size: 30px;
-
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
 }
 
 .status-grid {
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .status-item {
-
-    text-align: center;
-    flex: 1;
-
+  text-align: center;
+  flex: 1;
 }
 
 .status-item span {
-
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 60px;
-    height: 60px;
-
-    border-radius: 50%;
-    background: #E5E7EB;
-    color: #2563EB;
-    font-size: 28px;
-    font-weight: bold;
-
-    box-shadow: 0 5px 15px rgba(0,0,0,.08);
-
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(99, 102, 241, 0.15);
+  border: 1px solid rgba(99, 102, 241, 0.3);
+  color: #A5B4FC;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.2);
 }
 
 .status-item p {
-
-    margin-top: 15px;
-    font-size: 18px;
-    font-weight: 600;
-
+  margin-top: 12px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
 }
 
-
-/* Timeline Section */
-
 .progress-container {
-
-    width: 800px;
-
+  width: 820px;
+  max-width: 100%;
 }
 
 .progress-container h2 {
-
-    text-align: center;
-    color: white;
-    font-size: 34px;
-    margin-bottom: 30px;
-
+  text-align: center;
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  margin-bottom: 30px;
+  background: var(--grad-text-glowing);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-
-/* Timeline Card */
-
 .progress-card {
-
-    background: white;
-    padding: 25px;
-    margin-bottom: 25px;
-
-    border-left: 8px solid #2563EB;
-    border-radius: 20px;
-
-    box-shadow: 0 15px 35px rgba(0,0,0,.12);
-
+  background: var(--bg-card);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: var(--border-glass);
+  padding: 28px;
+  margin-bottom: 25px;
+  border-left: 6px solid var(--primary-color);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
 }
 
 .progress-card h3 {
-
-    color: #2563EB;
-    margin-bottom: 20px;
-    font-size: 24px;
-
+  color: #A5B4FC;
+  font-family: var(--font-heading);
+  margin-bottom: 18px;
+  font-size: 1.3rem;
 }
-
-
-/* Timeline Image */
 
 .progress-card img {
-
-    width: 100%;
-    max-height: 320px;
-    object-fit: cover;
-    border-radius: 15px;
-    margin-bottom: 20px;
-
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  margin-bottom: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
-
-
-/* Timeline Text */
 
 .progress-card p {
-
-    margin-bottom: 12px;
-    font-size: 16px;
-    line-height: 1.6;
-
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
 }
 
-
-/* Mobile Responsive */
-
-@media(max-width:900px){
-
-    .track-card,
-    .status-container,
-    .progress-container{
-
-        width:95%;
-
-    }
-
-    .status-grid{
-
-        flex-direction: column;
-
-    }
-
-}
-/* Complaint Completion */
-
-.completion-card{
-
-    width:800px;
-
-    background:white;
-
-    padding:30px;
-
-    border-radius:20px;
-
-    box-shadow:0 15px 35px rgba(0,0,0,.12);
-
+.completion-card h1 {
+  text-align: center;
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  background: var(--grad-text-glowing);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-
-.completion-card h2{
-
-    text-align:center;
-
-    color:#2563EB;
-
-    margin-bottom:15px;
-
+.completion-bar {
+  width: 100%;
+  height: 18px;
+  background: rgba(15, 23, 42, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-pill);
+  overflow: hidden;
 }
 
-
-.completion-card h1{
-
-    text-align:center;
-
-    color:#2563EB;
-
-    font-size:45px;
-
-    margin-bottom:20px;
-
+.completion-fill {
+  height: 100%;
+  background: var(--grad-primary);
+  transition: 0.5s ease;
 }
 
+@media (max-width: 900px) {
+  .search-box {
+    flex-direction: column;
+  }
 
-.completion-bar{
-
-    width:100%;
-
-    height:18px;
-
-    background:#E5E7EB;
-
-    border-radius:50px;
-
-    overflow:hidden;
-
-}
-
-
-.completion-fill{
-
-    height:100%;
-
-    background:linear-gradient(
-        90deg,
-        #2563EB,
-        #60A5FA
-    );
-
-    transition:.5s ease;
-
-}
+  .status-grid {
+    flex-direction: column;
+  }
+}

@@ -1,297 +1,188 @@
 .dashboard {
-
-    display: flex;
-
-    min-height: 100vh;
-
-    background-size: cover;
-
-    background-position: center;
-
-    background-repeat: no-repeat;
-
-    background-attachment: fixed;
-
+  display: flex;
+  min-height: 100vh;
+  background: var(--bg-dark);
+  color: var(--text-primary);
 }
 
 .dashboard-content {
+  flex: 1;
+  margin-left: 280px;
+  padding: 40px;
+  overflow-x: hidden;
+}
 
-    flex: 1;
-    margin-left: 280px;
-    padding: 30px;
-    overflow-x: hidden;
+.dashboard-header h1 {
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  font-weight: 800;
+  background: var(--grad-text-glowing);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 8px;
+}
 
+.dashboard-header p {
+  color: var(--text-secondary);
+  font-size: 1rem;
 }
 
 .stats-grid {
-
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 25px;
-    margin-top: 30px;
-
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
 }
-
-
-/*---------------------------------------*/
-/* Extra Cards Grid */
-/*---------------------------------------*/
 
 .dashboard-extra-grid {
-
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
-    gap: 30px;
-    margin-top: 40px;
-
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
 }
 
-
-/*---------------------------------------*/
-/* Premium Government Cards */
-/*---------------------------------------*/
-
+/* Glass Dashboard Cards */
 .recent-activity-card,
 .quick-actions-card,
 .tips-card,
 .updates-card {
-
-    background:
-        linear-gradient(
-        135deg,
-        #0F172A,
-        #1E3A8A,
-        #2563EB);
-
-    color: white;
-
-    border-radius: 25px;
-
-    padding: 30px;
-
-    box-shadow:
-        0 12px 30px rgba(0,0,0,.12);
-
-    transition: all .4s ease;
-
-    border-top: 6px solid #60A5FA;
-
-    overflow: hidden;
-
+  background: var(--bg-card);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: var(--border-glass);
+  border-radius: var(--radius-md);
+  padding: 32px;
+  box-shadow: var(--shadow-card);
+  transition: var(--transition-smooth);
+  position: relative;
+  overflow: hidden;
 }
 
-
-/*---------------------------------------*/
-/* Hover Effects */
-/*---------------------------------------*/
+.recent-activity-card::before,
+.quick-actions-card::before,
+.tips-card::before,
+.updates-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--grad-primary);
+  border-top-left-radius: var(--radius-md);
+  border-top-right-radius: var(--radius-md);
+}
 
 .recent-activity-card:hover,
 .quick-actions-card:hover,
 .tips-card:hover,
 .updates-card:hover {
-
-    transform:
-        translateY(-12px)
-        scale(1.02);
-
-    box-shadow:
-        0 25px 50px
-        rgba(37,99,235,.30);
-
+  transform: translateY(-6px);
+  background: var(--bg-card-hover);
+  border-color: rgba(99, 102, 241, 0.4);
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.6), 0 0 25px rgba(99, 102, 241, 0.25);
 }
-
-
-/*---------------------------------------*/
-/* Card Titles */
-/*---------------------------------------*/
 
 .recent-activity-card h2,
 .quick-actions-card h2,
 .tips-card h2,
 .updates-card h2 {
-
-    margin-bottom: 25px;
-
-    color: #FFFFFF;
-
-    font-size: 26px;
-
-    font-weight: 700;
-
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
-
-/*---------------------------------------*/
-/* Recent Activities */
-/*---------------------------------------*/
-
+/* Recent Activity List */
 .recent-activity-card ul {
-
-    list-style: none;
-
-    padding-left: 0;
-
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
-
 
 .recent-activity-card li {
-
-    margin-bottom: 15px;
-
-    color: #F8FAFC;
-
-    line-height: 1.9;
-
-    font-size: 15px;
-
+  margin-bottom: 16px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
 }
-
 
 .recent-activity-card li::before {
-
-    content: "✔ ";
-
-    color: #BBF7D0;
-
-    font-weight: bold;
-
+  content: "✦";
+  color: #6EE7B7;
+  font-weight: bold;
 }
 
-
-/*---------------------------------------*/
 /* Quick Actions */
-/*---------------------------------------*/
-
 .quick-actions-card {
-
-    display: flex;
-
-    flex-direction: column;
-
-    gap: 15px;
-
+  display: flex;
+  flex-direction: column;
 }
 
+.quick-actions-card .actions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
 
 .quick-actions-card button {
-
-    border: none;
-
-    padding: 18px;
-
-    border-radius: 15px;
-
-    background: rgba(255,255,255,.15);
-
-    backdrop-filter: blur(10px);
-
-    color: white;
-
-    font-weight: 600;
-
-    font-size: 15px;
-
-    cursor: pointer;
-
-    display: flex;
-
-    align-items: center;
-
-    gap: 15px;
-
-    transition: .3s ease;
-
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 14px 20px;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  transition: var(--transition-fast);
+  width: 100%;
 }
-
 
 .quick-actions-card button:hover {
-
-    background: white;
-
-    color: #1E3A8A;
-
-    transform: translateX(8px);
-
+  background: var(--grad-primary);
+  border-color: transparent;
+  color: #ffffff;
+  transform: translateX(6px);
+  box-shadow: var(--shadow-primary-glow);
 }
-
-
-/*---------------------------------------*/
-/* Tips & Updates */
-/*---------------------------------------*/
 
 .tips-card p,
 .updates-card p {
-
-    color: #F8FAFC;
-
-    line-height: 2;
-
-    font-size: 15px;
-
+  color: var(--text-secondary);
+  line-height: 1.8;
+  font-size: 0.95rem;
 }
 
-
-/*---------------------------------------*/
-/* Responsive */
-/*---------------------------------------*/
-
-@media(max-width:1024px){
-
-    .dashboard-content{
-
-        margin-left: 0;
-
-        padding: 20px;
-
-    }
-
+@media (max-width: 1024px) {
+  .dashboard-content {
+    margin-left: 0;
+    padding: 24px;
+  }
 }
 
+@media (max-width: 768px) {
+  .dashboard-extra-grid,
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
 
-@media(max-width:768px){
-
-    .dashboard-extra-grid{
-
-        grid-template-columns: 1fr;
-
-    }
-
-
-    .stats-grid{
-
-        grid-template-columns: 1fr;
-
-    }
-
-
-    .recent-activity-card,
-    .quick-actions-card,
-    .tips-card,
-    .updates-card{
-
-        padding: 25px;
-
-    }
-
-
-    .recent-activity-card h2,
-    .quick-actions-card h2,
-    .tips-card h2,
-    .updates-card h2{
-
-        font-size: 22px;
-
-    }
-
+  .recent-activity-card,
+  .quick-actions-card,
+  .tips-card,
+  .updates-card {
+    padding: 24px;
+  }
 }
 
-
-@media(max-width:480px){
-
-    .dashboard-content{
-
-        padding: 15px;
-
-    }
-
-}

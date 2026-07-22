@@ -1,153 +1,128 @@
 .topbar {
-    width: 100%;
-    min-height: 118px;
-     background: linear-gradient(
-        135deg,
-        #0F172A,
-        #1E3A8A,
-        #2563EB
-    );
-    border-radius: 20px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    padding: 24px 36px;
-    box-sizing: border-box;
-
-    box-shadow: 0 8px 25px rgba(15, 23, 42, 0.06);
+  width: 100%;
+  min-height: 100px;
+  background: var(--bg-card);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: var(--border-glass);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 36px;
+  box-sizing: border-box;
+  box-shadow: var(--shadow-card);
+  margin-bottom: 30px;
 }
 
 /* LEFT SIDE */
-
 .topbar-left h1 {
-    margin: 0;
-    font-size: 36px;
-    font-weight: 700;
-    color: white;
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 800;
+  background: var(--grad-text-glowing);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .topbar-left p {
-    margin: 5px 0 0;
-    font-size: 16px;
-    color: #E2E8F0;
+  margin: 5px 0 0;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
 }
 
 /* RIGHT SIDE */
-
 .topbar-right {
-    display: flex;
-    align-items: center;
-    gap: 28px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
 }
 
 /* NOTIFICATION */
-
 .notification {
-    position: relative;
-
-    width: 50px;
-    height: 50px;
-
-    border-radius: 50%;
-    background: #eff6ff;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    color: #2563eb;
-    font-size: 20px;
-
-    cursor: pointer;
-    transition: 0.3s ease;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(99, 102, 241, 0.15);
+  border: 1px solid rgba(99, 102, 241, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #A5B4FC;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: var(--transition-fast);
 }
 
 .notification:hover {
-    background: #dbeafe;
-    transform: translateY(-3px);
+  background: rgba(99, 102, 241, 0.3);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.4);
 }
 
 .notification span {
-    position: absolute;
-    top: -5px;
-    right: -3px;
-
-    width: 22px;
-    height: 22px;
-
-    border-radius: 50%;
-    background: #ef4444;
-    color: #ffffff;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    font-size: 12px;
-    font-weight: 700;
+  position: absolute;
+  top: -4px;
+  right: -2px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--grad-danger);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(244, 63, 94, 0.6);
 }
 
 /* USER PROFILE */
-
 .user-profile {
-    display: flex;
-    align-items: center;
-    gap: 13px;
-
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  cursor: pointer;
 }
 
 .user-icon {
-    font-size: 46px;
-    color: #e3e7f0;
+  font-size: 2.5rem;
+  color: #A5B4FC;
 }
 
 .user-profile h4 {
-    margin: 0;
-    font-size: 16px;
-    font-weight: 700;
-    color: #d3d7e0;
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
 }
 
 .user-profile p {
-    margin: 3px 0 0;
-    font-size: 14px;
-    color: #d2d6db;
+  margin: 2px 0 0;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
 }
-
-/* RESPONSIVE */
 
 @media (max-width: 768px) {
+  .topbar {
+    padding: 16px 20px;
+    min-height: 80px;
+  }
 
-    .topbar {
-        padding: 20px;
-        min-height: 100px;
-    }
+  .topbar-left h1 {
+    font-size: 1.5rem;
+  }
 
-    .topbar-left h1 {
-        font-size: 27px;
-    }
+  .topbar-right {
+    gap: 14px;
+  }
 
-    .topbar-left p {
-        font-size: 14px;
-    }
-
-    .topbar-right {
-        gap: 15px;
-    }
-
-    .user-profile div {
-        display: none;
-    }
-
-    .notification {
-        width: 44px;
-        height: 44px;
-    }
-
-    .user-icon {
-        font-size: 42px;
-    }
-}
+  .user-profile div {
+    display: none;
+  }
+}

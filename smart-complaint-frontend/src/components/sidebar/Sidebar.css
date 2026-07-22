@@ -1,208 +1,114 @@
-.sidebar{
-
-    width:280px;
-
-    height:100vh;
-
-    position:fixed;
-
-    left:0;
-
-    top:0;
-
-    background:#0F172A;
-
-    color:white;
-
-    display:flex;
-
-    flex-direction:column;
-
-    justify-content:space-between;
-
-    padding:30px 20px;
-
-    z-index: 100;
-
+.sidebar {
+  width: 280px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--text-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 20px;
+  z-index: 100;
+  box-shadow: 10px 0 30px rgba(0, 0, 0, 0.4);
 }
 
-.sidebar-logo{
-
-    text-align:center;
-
+.sidebar-logo {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.sidebar-logo img{
-
-    width:70px;
-
-    margin-bottom:15px;
-
+.sidebar-logo img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin-bottom: 12px;
+  filter: drop-shadow(0 0 10px rgba(99, 102, 241, 0.4));
 }
 
-.sidebar-logo h2{
-
-    font-size:22px;
-
-    font-weight:700;
-
+.sidebar-logo h2 {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  background: var(--grad-text-glowing);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
 }
 
-.sidebar ul{
-
-    list-style:none;
-
-    padding:0;
-
-    margin-top:40px;
-
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
 }
 
-.sidebar ul li{
-
-    margin-bottom:12px;
-
+.sidebar ul li {
+  margin-bottom: 10px;
+  transition: var(--transition-fast);
 }
 
-.sidebar ul li a{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:15px;
-
-    color:#CBD5E1;
-
-    text-decoration:none;
-
-    padding:15px;
-
-    border-radius:12px;
-
-    transition:.3s;
-
+.sidebar ul li a {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: var(--text-secondary);
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-decoration: none;
+  padding: 13px 18px;
+  border-radius: var(--radius-sm);
+  transition: var(--transition-fast);
+  border: 1px solid transparent;
 }
 
-.sidebar ul li a:hover{
-
-    background:#2563EB;
-
-    color:white;
-
+.sidebar ul li a:hover {
+  background: rgba(255, 255, 255, 0.06);
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.1);
+  transform: translateX(4px);
 }
 
-.sidebar ul li.active a{
-
-    background:#2563EB;
-
-    color:white;
-
+.sidebar ul li.active a,
+.sidebar ul li a.active {
+  background: var(--grad-primary);
+  color: #ffffff;
+  font-weight: 600;
+  box-shadow: var(--shadow-primary-glow);
+  border-color: transparent;
 }
 
-.sidebar-bottom a{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:15px;
-
-    text-decoration:none;
-
-    color:#F87171;
-
-    padding:15px;
-
-    border-radius:12px;
-
-    transition:.3s;
-
+.sidebar-bottom {
+  margin-top: auto;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.sidebar-bottom a:hover{
-
-    background:#DC2626;
-
-    color:white;
-
-}
-.sidebar-bottom{
-
-    margin-top:auto;
-
-    padding:20px;
-
-}
-
-.logout-btn{
-
-    width:100%;
-
-    border:none;
-
-    outline:none;
-
-    background:#ef4444;
-
-    color:#fff;
-
-    padding:14px;
-
-    border-radius:10px;
-
-    font-size:16px;
-
-    font-weight:600;
-
-    cursor:pointer;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    gap:10px;
-
-    transition:.3s;
-
+.logout-btn {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: var(--grad-danger);
+  color: #ffffff;
+  padding: 13px;
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: var(--shadow-danger-glow);
+  transition: var(--transition-fast);
 }
 
-.logout-btn:hover{
-
-    background:#dc2626;
-
-    transform:translateY(-2px);
-
-    box-shadow:0 8px 20px rgba(220,38,38,.35);
-
-}
-
-.sidebar ul li a{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:12px;
-
-    text-decoration:none;
-
-    color:inherit;
-
-    width:100%;
-
-}
-
-.sidebar ul li{
-
-    transition:.3s;
-
-}
-
-.sidebar ul li:hover{
-
-    transform:translateX(5px);
-
-}
+.logout-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(244, 63, 94, 0.5);
+}

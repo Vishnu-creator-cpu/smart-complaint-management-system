@@ -1,63 +1,86 @@
 .officer-sidebar {
-    width: 250px;
-    height: 100vh;
-    background: #1e293b;
-    color: white;
-    position: fixed;
-    left: 0;
-    top: 0;
-    padding: 25px 20px;
-    box-sizing: border-box;
+  width: 260px;
+  height: 100vh;
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--text-primary);
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  box-shadow: 10px 0 30px rgba(0, 0, 0, 0.4);
+  z-index: 100;
 }
 
 .officer-sidebar h2 {
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 24px;
+  text-align: center;
+  margin-bottom: 35px;
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  font-weight: 800;
+  background: var(--grad-text-glowing);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .officer-sidebar ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .officer-sidebar li {
-    margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .officer-sidebar a {
-    color: white;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 12px;
-    border-radius: 7px;
-    transition: 0.3s;
+  color: var(--text-secondary);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: var(--transition-fast);
 }
 
-.officer-sidebar a:hover {
-    background: #334155;
+.officer-sidebar a:hover,
+.officer-sidebar a.active {
+  background: var(--grad-primary);
+  color: #ffffff;
+  font-weight: 600;
+  box-shadow: var(--shadow-primary-glow);
 }
 
 .officer-logout {
-    position: absolute;
-    bottom: 30px;
-    left: 20px;
-    width: 210px;
-    border: none;
-    background: #dc2626;
-    color: white;
-    padding: 12px;
-    border-radius: 7px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    font-size: 15px;
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  width: 220px;
+  border: none;
+  background: var(--grad-danger);
+  color: #ffffff;
+  padding: 13px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  box-shadow: var(--shadow-danger-glow);
+  transition: var(--transition-fast);
 }
 
 .officer-logout:hover {
-    background: #b91c1c;
-}
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(244, 63, 94, 0.5);
+}

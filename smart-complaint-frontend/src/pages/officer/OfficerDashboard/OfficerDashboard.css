@@ -1,96 +1,93 @@
-.officer-dashboard h1 {
-    color: #1e293b;
-    margin-bottom: 5px;
+.dashboard-container {
+  padding: 40px;
+  min-height: 100vh;
+  background: var(--bg-dark);
+  color: var(--text-primary);
+  margin-left: 260px;
+}
+
+.officer-dashboard h1,
+.dashboard-container h1 {
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 8px;
+  background: var(--grad-text-glowing);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .dashboard-welcome {
-    color: #64748b;
-    margin-bottom: 30px;
+  color: var(--text-secondary);
+  margin-bottom: 30px;
+  font-size: 1rem;
 }
 
-.officer-dashboard-cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-}
-
-.officer-card {
-    background: white;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-}
-
-.officer-card h3 {
-    color: #64748b;
-    margin-bottom: 15px;
-}
-
-.officer-card h2 {
-    color: #2563eb;
-    font-size: 35px;
-    margin: 0;
-}
-
-@media (max-width: 900px) {
-
-    .officer-dashboard-cards {
-        grid-template-columns: 1fr;
-    }
-
-}
-.dashboard-container {
-
-    padding: 30px;
-
-}
-
-
+.officer-dashboard-cards,
 .dashboard-cards {
-
-    display: flex;
-
-    gap: 20px;
-
-    flex-wrap: wrap;
-
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 25px;
 }
 
-
+.officer-card,
 .dashboard-card {
-
-    flex: 1;
-
-    min-width: 220px;
-
-    padding: 25px;
-
-    border-radius: 15px;
-
-    background: white;
-
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-
-    text-align: center;
-
+  background: var(--bg-card);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: var(--border-glass);
+  padding: 28px 24px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+  transition: var(--transition-smooth);
+  position: relative;
+  overflow: hidden;
 }
 
-
-.dashboard-card h2 {
-
-    font-size: 40px;
-
-    margin-bottom: 10px;
-
-    color: #0d6efd;
-
+.officer-card::before,
+.dashboard-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--grad-primary);
+  border-top-left-radius: var(--radius-md);
+  border-top-right-radius: var(--radius-md);
 }
 
+.officer-card:hover,
+.dashboard-card:hover {
+  transform: translateY(-6px);
+  background: var(--bg-card-hover);
+  border-color: rgba(99, 102, 241, 0.4);
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.6), 0 0 25px rgba(99, 102, 241, 0.25);
+}
 
+.officer-card h3,
 .dashboard-card p {
-
-    font-size: 18px;
-
-    font-weight: 600;
-
+  color: var(--text-secondary);
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
+
+.officer-card h2,
+.dashboard-card h2 {
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  font-weight: 800;
+  background: var(--grad-text-glowing);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .dashboard-container {
+    margin-left: 0;
+    padding: 24px;
+  }
+}

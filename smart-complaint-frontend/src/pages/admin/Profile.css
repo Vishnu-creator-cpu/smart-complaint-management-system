@@ -1,28 +1,53 @@
 .profile-container {
-    padding: 30px;
+  padding: 40px;
+  min-height: 100vh;
+  background: var(--bg-dark);
+  color: var(--text-primary);
+  margin-left: 270px;
 }
 
 .profile-container h1 {
-    margin-bottom: 25px;
-    color: #1f2937;
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 25px;
+  background: var(--grad-text-glowing);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .profile-card {
-    width: 500px;
-    background-color: white;
-    border-radius: 15px;
-    padding: 30px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  width: 520px;
+  max-width: 100%;
+  background: var(--bg-card);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: var(--border-glass);
+  border-radius: var(--radius-md);
+  padding: 35px;
+  box-shadow: var(--shadow-card);
 }
 
 .profile-card p {
-    font-size: 18px;
-    margin-bottom: 20px;
-    color: #333;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 .profile-card strong {
-    display: inline-block;
-    width: 100px;
-    color: #0f172a;
+  display: inline-block;
+  width: 120px;
+  color: var(--text-primary);
+  font-family: var(--font-heading);
+  font-weight: 700;
 }
+
+@media (max-width: 1024px) {
+  .profile-container {
+    margin-left: 0;
+    padding: 24px;
+  }
+}

@@ -1,261 +1,213 @@
 .officer-complaint-details {
-
-    padding: 30px;
-    min-height: 100vh;
-    background: #F1F5F9;
-
+  padding: 40px;
+  min-height: 100vh;
+  background: var(--bg-dark);
+  color: var(--text-primary);
+  margin-left: 260px;
 }
 
 .officer-complaint-details h1 {
-
-    color: #0F172A;
-    margin-bottom: 25px;
-    font-size: 32px;
-
+  font-family: var(--font-heading);
+  color: var(--text-primary);
+  margin-bottom: 25px;
+  font-size: 2.2rem;
+  font-weight: 800;
+  background: var(--grad-text-glowing);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .complaint-details-card {
-
-    background: #FFFFFF;
-    padding: 35px;
-    border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-
+  background: var(--bg-card);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: var(--border-glass);
+  padding: 35px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
 }
 
 .complaint-details-card p {
-
-    margin-bottom: 18px;
-    font-size: 17px;
-    color: #334155;
-    line-height: 1.7;
-
+  margin-bottom: 18px;
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
 }
 
 .complaint-details-card strong {
-
-    color: #0F172A;
-    font-weight: 700;
-
+  color: var(--text-primary);
+  font-weight: 700;
 }
 
-
 /* Google Maps Button */
-
 .location-container {
-
-    margin-top: 20px;
-    margin-bottom: 20px;
-
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .location-btn {
-
-    text-decoration: none;
-    background: #2563EB;
-    color: white;
-    padding: 12px 22px;
-    border-radius: 10px;
-    font-weight: 600;
-    transition: 0.3s ease;
-
+  text-decoration: none;
+  background: var(--grad-primary);
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  box-shadow: var(--shadow-primary-glow);
+  transition: var(--transition-fast);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .location-btn:hover {
-
-    background: #1D4ED8;
-
+  background: var(--grad-primary-hover);
+  transform: translateY(-2px);
 }
 
-
 /* Complaint Image */
-
 .complaint-detail-image {
-
-    width: 100%;
-    max-width: 600px;
-    margin-top: 15px;
-    border-radius: 15px;
-    object-fit: cover;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-    transition: 0.3s ease;
-
+  width: 100%;
+  max-width: 600px;
+  margin-top: 15px;
+  border-radius: var(--radius-sm);
+  object-fit: cover;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: var(--transition-smooth);
 }
 
 .complaint-detail-image:hover {
-
-    transform: scale(1.02);
-
+  transform: scale(1.02);
+  border-color: rgba(99, 102, 241, 0.4);
 }
 
-
 /* Remarks Section */
-
 .remarks-container {
-
-    margin-top: 30px;
-
+  margin-top: 30px;
 }
 
 .remarks-container label {
-
-    display: block;
-    margin-bottom: 12px;
-    color: #0F172A;
-    font-size: 18px;
-
+  display: block;
+  margin-bottom: 12px;
+  color: var(--text-primary);
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 .remarks-container textarea {
-
-    width: 100%;
-    padding: 18px;
-    border: 1px solid #CBD5E1;
-    border-radius: 12px;
-    resize: none;
-    font-size: 16px;
-    box-sizing: border-box;
-    outline: none;
-
+  width: 100%;
+  padding: 16px;
+  background: rgba(15, 23, 42, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-sm);
+  resize: vertical;
+  font-size: 0.95rem;
+  font-family: var(--font-sans);
+  color: var(--text-primary);
+  box-sizing: border-box;
+  outline: none;
+  transition: var(--transition-fast);
 }
 
 .remarks-container textarea:focus {
-
-    border: 2px solid #2563EB;
-
+  border-color: var(--primary-color);
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.35);
+  background: rgba(15, 23, 42, 0.9);
 }
 
-
-/* Buttons */
-
+/* Actions */
 .action-buttons {
-
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-top: 30px;
-
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 30px;
 }
 
 .action-buttons button {
-
-    border: none;
-    padding: 14px 22px;
-    border-radius: 10px;
-    cursor: pointer;
-    color: white;
-    font-weight: 600;
-    transition: 0.3s ease;
-
+  border: none;
+  padding: 13px 24px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  color: #ffffff;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: var(--transition-fast);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
-
-/* PDF Button */
-
 .pdf-btn {
-
-    background: #EF4444;
-
+  background: var(--grad-danger);
+  box-shadow: var(--shadow-danger-glow);
 }
 
 .pdf-btn:hover {
-
-    background: #DC2626;
-    transform: translateY(-2px);
-
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(244, 63, 94, 0.5);
 }
 
-
-/* Upload Button */
-
 .upload-btn {
-
-    background: #2563EB;
-
+  background: var(--grad-primary);
+  box-shadow: var(--shadow-primary-glow);
 }
 
 .upload-btn:hover {
-
-    background: #1D4ED8;
-    transform: translateY(-2px);
-
+  background: var(--grad-primary-hover);
+  transform: translateY(-2px);
 }
 
-
-/* Complete Complaint Button */
-
 .complete-btn {
-
-    background: #22C55E;
-
+  background: var(--grad-success);
+  box-shadow: var(--shadow-success-glow);
 }
 
 .complete-btn:hover {
-
-    background: #16A34A;
-    transform: translateY(-2px);
-
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(16, 185, 129, 0.5);
 }
 
+.history-btn {
+  background: linear-gradient(135deg, #8B5CF6 0%, #7C3AED 100%);
+  color: white;
+  box-shadow: 0 4px 20px rgba(139, 92, 246, 0.35);
+}
 
-/* Back Button */
+.history-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(139, 92, 246, 0.5);
+}
 
 .back-btn {
-
-    background: #64748B;
-
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
 }
 
 .back-btn:hover {
-
-    background: #475569;
-    transform: translateY(-2px);
-
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
 }
 
-
-/* Responsive */
-
-@media (max-width:768px) {
-
-    .complaint-details-card {
-
-        padding: 20px;
-
-    }
-
-    .action-buttons {
-
-        flex-direction: column;
-
-    }
-
-    .action-buttons button {
-
-        width: 100%;
-
-    }
-
-}
-.history-btn{
-
-    background:#9333ea;
-
-    color:white;
-
-    border:none;
-
-    padding:10px 15px;
-
-    border-radius:8px;
-
-    cursor:pointer;
-
+@media (max-width: 1024px) {
+  .officer-complaint-details {
+    margin-left: 0;
+    padding: 24px;
+  }
 }
 
+@media (max-width: 768px) {
+  .complaint-details-card {
+    padding: 20px;
+  }
 
-.history-btn:hover{
+  .action-buttons {
+    flex-direction: column;
+  }
 
-    background:#7e22ce;
-
-}
+  .action-buttons button {
+    width: 100%;
+  }
+}

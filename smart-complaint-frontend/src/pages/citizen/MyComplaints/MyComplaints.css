@@ -1,133 +1,111 @@
 .mycomplaints-container {
-    min-height: 100vh;
-    padding: 35px;
-    background: linear-gradient(
-        135deg,
-        #0f172a,
-        #111827
-    );
-    color: #f8fafc;
+  min-height: 100vh;
+  padding: 40px;
+  background: var(--bg-dark);
+  color: var(--text-primary);
 }
 
 .mycomplaints-container h2 {
-    margin-bottom: 30px;
-    font-size: 28px;
-    font-weight: 700;
-    color: #60a5fa;
+  margin-bottom: 30px;
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  font-weight: 800;
+  background: var(--grad-text-glowing);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* TABLE */
-
 .mycomplaints-container table {
-    width: 100%;
-    border-collapse: collapse;
-    background: linear-gradient(160deg, #eef2ff 0%, #e0e7ff 40%, #dbeafe 100%);
-    border-radius: 14px;
-    overflow: hidden;
-
-    box-shadow:
-        0 10px 30px rgba(0, 0, 0, 0.3);
-}
-
-/* TABLE HEADER */
-
-.mycomplaints-container thead {
-    background: linear-gradient(
-        90deg,
-        #2563eb,
-        #4f46e5
-    );
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 8px;
+  background: transparent;
 }
 
 .mycomplaints-container th {
-    padding: 18px;
-    color: #0e0d0d;
-    font-size: 15px;
-    font-weight: 700;
-    text-align: center;
+  background: rgba(15, 23, 42, 0.8);
+  color: var(--text-secondary);
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  padding: 16px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
 }
-
-/* TABLE DATA */
 
 .mycomplaints-container td {
-    padding: 17px;
-    text-align: center;
-    color: #0f0f0f;
-    border-bottom: 1px solid #334155;
+  padding: 16px 20px;
+  background: rgba(17, 24, 39, 0.65);
+  backdrop-filter: blur(12px);
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition: var(--transition-fast);
 }
 
-/* ROW HOVER */
-
-.mycomplaints-container tbody tr {
-    transition: 0.3s ease;
+.mycomplaints-container tr td:first-child {
+  border-top-left-radius: var(--radius-sm);
+  border-bottom-left-radius: var(--radius-sm);
+  border-left: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-/* STATUS */
+.mycomplaints-container tr td:last-child {
+  border-top-right-radius: var(--radius-sm);
+  border-bottom-right-radius: var(--radius-sm);
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
 
+.mycomplaints-container tbody tr:hover td {
+  background: rgba(30, 41, 59, 0.8);
+  border-color: rgba(99, 102, 241, 0.3);
+}
+
+/* BADGES */
 .status-badge {
-    display: inline-block;
-    min-width: 90px;
-    padding: 7px 15px;
-    border-radius: 20px;
-
-    font-size: 13px;
-    font-weight: 600;
-
-    color: rgb(19, 17, 17);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  backdrop-filter: blur(8px);
 }
-
-/* PENDING */
 
 .status-badge.pending,
 .status-badge.submitted {
-    background: #f59e0b;
+  background: rgba(245, 158, 11, 0.18);
+  color: #FDE68A;
+  border: 1px solid rgba(245, 158, 11, 0.35);
 }
-
-/* RESOLVED */
 
 .status-badge.resolved {
-    background: #22c55e;
+  background: rgba(16, 185, 129, 0.18);
+  color: #6EE7B7;
+  border: 1px solid rgba(16, 185, 129, 0.35);
 }
-
-/* REJECTED */
 
 .status-badge.rejected {
-    background: #ef4444;
+  background: rgba(239, 68, 68, 0.18);
+  color: #FCA5A5;
+  border: 1px solid rgba(239, 68, 68, 0.35);
 }
-
-/* IN PROGRESS */
 
 .status-badge.in-progress {
-    background: #3b82f6;
+  background: rgba(99, 102, 241, 0.18);
+  color: #A5B4FC;
+  border: 1px solid rgba(99, 102, 241, 0.35);
 }
-
-/* EMPTY ROW */
-
-.mycomplaints-container td[colspan="4"] {
-    padding: 50px;
-    color: #94a3b8;
-    font-size: 16px;
-    font-weight: 500;
-}
-
-/* LOADING */
-
-.mycomplaints-container p {
-    color: #cbd5e1;
-    font-size: 16px;
-}
-
-/* RESPONSIVE */
 
 @media (max-width: 768px) {
-
-    .mycomplaints-container {
-        padding: 20px;
-        overflow-x: auto;
-    }
-
-    .mycomplaints-container table {
-        min-width: 650px;
-    }
-
-}
+  .mycomplaints-container {
+    padding: 20px;
+    overflow-x: auto;
+  }
+}

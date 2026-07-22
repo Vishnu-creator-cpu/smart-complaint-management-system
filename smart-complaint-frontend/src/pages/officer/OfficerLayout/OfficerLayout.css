@@ -1,11 +1,13 @@
 .officer-layout {
-    min-height: 100vh;
-    background: #f1f5f9;
+  min-height: 100vh;
+  background: var(--bg-dark);
+  color: var(--text-primary);
+  display: flex;
 }
 
 .officer-content {
-    margin-left: 250px;
-    padding: 30px;
-    min-height: 100vh;
-    box-sizing: border-box;
-}
+  flex: 1;
+  padding: 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
